@@ -1,0 +1,229 @@
+body{ 
+  margin: 0;
+  padding: 0;
+  background-color:#FFF5F0;}
+  
+  ::-webkit-scrollbar {
+    width: 19px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+   background-color: #f4ceb8;
+    border-radius: 8px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+  
+    background-color:#f0e1da;
+ }
+  #content {
+   margin-top:1.3%;
+       width: 100%;
+      display: -webkit-flex;
+      justify-content: center;
+      position:absolute;
+    }
+  #first, #second{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+   box-shadow: 0 5px 15px rgba(0.12,0.12,0.12,0.12); 
+   height: 1080px;
+  }
+  
+  #first {
+      width:30%  ;
+   background-color: #EFE4D7;
+      position:relative; 
+  
+  }
+  
+  
+  #second{
+      width:45% ;
+     background-color: #FFF;
+      display:inline-block;
+   
+}
+@media screen and (max-width: 600px) {
+  #first,#second {
+    width: 100%;
+    height: 100%;
+  
+  }
+  #content{ display: block;}
+}
+  #childHeading{
+   text-align: center;
+  color: #c8a695;}
+  
+  #welcomeHeading{
+  color:#FFF;
+  bottom:3%;
+  display:inline-block;
+  display:inline;
+  zoom:1;}
+  
+  .animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+  
+  #baby{
+width: 100%;
+   margin-right:5%;
+  margin-top:78%;}
+  
+ 
+
+
+.col-25 {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+  margin-left: 3%;
+}
+
+.firstInputGroup{
+  float: left;
+  width: 55%;
+  margin-top: 5px;
+  margin-left: 11%;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+   .firstInputGroup {
+       width: 55%;
+       margin-top: 5px;
+  }
+  .col-25{
+      width: 30%;
+      margin-top: 6px;
+ }
+}
+  .questionDesign{
+ 
+    color:#c8a695;
+
+ }
+ span{
+  display: flex;
+  justify-content: center;
+align-items:center ;
+ }
+  #circles{
+    text-align:center;
+    margin-top:40px;
+
+
+ 
+  }
+  
+  #happyBabyCaption{
+    text-align: center;
+    letter-spacing: 2px;
+    color:#c8a695;
+  }
+ 
+  .rightLabels{
+      text-align:left;
+      float:left;
+   color:#c8a695;
+  margin-left:55%;
+  margin-top: -168%;}
+
+  #buttonContent{
+    overflow:auto;
+    float:right;
+    margin-right:10px;
+    margin-top: -2%;
+
+  }
+a{color:#f4ccb8;
+  text-decoration: none;
+
+}
+span{
+  display:inline;
+
+}
+
+  .downlodFile{
+margin-left: 3%;
+  }
+  input[type=text],input[type=tel],select,input[type=date],[type=email]{  
+border: 1px solid  #EFE4D7;
+   padding: 6px 13px;
+   }  
+
+  /* Hide all steps by default: */
+  .tab,#hideMethodOfBreastfeeding,#hideFood,#ifYes{
+    display: none;}
+  
+  
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  #prevBtn {
+    background-color: #cec9c9;}
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+
+  }
+
+  button {
+    background-color: #ffccb3;
+    padding: 8px 14px;
+    font-size: 17px;
+    color: #ffffff;
+    border: none;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+    bottom: 0;
+   
+   
+  }
+#p{
+ 
+  color:  #c8a695 ;
+ 
+
+ 
+  
+
+}
+  
+  .step.active {
+    opacity: 1;}
+  
+  input.invalid {
+    background-color: #ffdddd;}
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #ffccb3;}
+    @media screen and (max-width: 600px) {
+      .col-25, .firstInputGroup {
+          width: 100%;
+          margin-top: 0;
+      }
+  }
+  

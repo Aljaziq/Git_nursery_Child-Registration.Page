@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon"type = "img/jpg" href="123.jpg">
+<title> child regestriation</title>
+<link rel="stylesheet" href="childcss.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="navv.css" rel="stylesheet" type = "text/css"/>
+</head>
+<body>
+  <nav>
+    <ul class="navbar">
+        <li><a href="Home.html"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="aboutUs.html"><i class="fa fa-users"></i> About us</a></li>
+        <li><a href="jobOrTrainigRequest.html"> <i class="fa fa-address-card"></i>Job / Training Request</a></li>
+        <li><a href="childRegistrationForm.html"><i class="fa fa-file-text"></i> Child Registeraion</a></li>
+        <li><a href="RegistrationFees.html"> <i class="fa fa-money"></i> Registeraion Fees</a></li>
+    </ul>
+</nav>
+<div id="content" ><!-- start content div  -->
+  <div id="first"><!-- start first div  --><img src="Happy baby-img.png" alt="baby Logo" id="baby"/><br/><h1 id="happyBabyCaption">HAPPY BABY</em></h1></div><!-- end content div  -->
+  <div id="second"><!-- start second div  -->
+    <h3 id="childHeading" class="animate-top">Child Regestriation Form</h3></br></br>
+    <form action="child.php" id="regForm"><!-- start form tag  -->  
+      <div class="tab">   <!-- start tab Child div  -->
+        <div class="row">
+            <div class="col-25">
+
+
+               <label for="childId"> Child ID: </label></br></br><input type="text" name="childId" id="childId"  placeholder="Enter Your child ID" required oninput="this.className = ''"/></br></br></br> </br>
+               <label for="middleName" > Middle Name: </label> </br></br>
+               <input  type="text" name="middleName"id="middleName" placeholder="Enter Your Child Middle Name"  required  oninput="this.className = ''"/></br> </br> </br>   </br>                                                  
+               <label for="idType" > ID Type: </label></br></br> 
+               <select name="idType" id="idType" required oninput="this.className = ''"><option value="nationalIdentity">National Identity</option><option value="Passport">Passport</option><option value="iqamma">Iqamma</option></select></br></br> </br> </br>  
+               <label for="dateOfBirth"  >Date of Birth: </label></br></br> 
+               <input type="date" name="dateOfBirth" id="dateOfBirth"  required  oninput="this.className = ''"/> </br></br></br> </br> </br> 
+               <label for="birthCertificate"   >Birth Certificate</label></br></br>
+               <input type="file" id="birthCertificate" name="birthCertificate" required oninput="this.className = ''" /></br> </br></br> </br> </br>  
+               <label for="vaccinationCertificate" >Vaccination Certificate: </label> </br></br>
+               <input type="file" id="vaccinationCertificate" name="vaccinationCertificate" required oninput="this.className = ''" /></br> </br></br>  </br> </br> 
+               <label for="medicalExamination" > Medical Examination:</label></br></br>
+               <input type="file" id="medicalExamination" name="medicalExamination" required oninput="this.className = ''" /></br> </br></br>  </br>  
+      
+            </div>
+
+            <div class="firstInputGroup">
+              <label for="firstName"> First Name: </label></br></br>                                  
+              <input type="text" name="firstName" id="firstName" placeholder="Enter Your Child First Name"   required oninput="this.className = ''"/></br></br></br> </br> 
+              <label for="lastName"> Last Name: </label> </br></br>                                      
+              <input type="text" name="lastName" id="lastName" placeholder="Enter Your Child Last Name" required  oninput="this.className = ''"/></br></br></br> </br> 
+              <label for="nationality" > Nationality: </label></br></br> 
+              <select name="nationality" id="nationality"  required oninput="this.className = ''"><option value="saudi">Saudi</option><option value="none-Saudi">None-Saudi</option></select></br></br> </br> </br>            
+              <label for="placeOfBirth">Place of Birth: </label></br></br> 
+              <input type="text" name="placeOfBirth" id="placeOfBirth" placeholder="Enter place of birth" required   oninput="this.className = ''"/> </br></br></br> </br> </br>  
+              <label for="familyOrResidenceCard" >Family or Residence Card: </label> </br></br>
+              <input type="file" id="familyOrResidenceCard" name="familyOrResidenceCard"  required oninput="this.className = ''"/></br></br></br></br> </br> 
+              <label for="pictureOfChild" > Picture of Child:</label>  </br></br>
+              <input type="file" id="pictureOfChild" name="pictureOfChild"  required oninput="this.className = ''"/> </br> </br></br></br></br>   
+              <label for="childJoiningFile" >  Child Joining :  <a href="childJoiningFile.pdf" download="childJoiningFile"><i class="fa fa-download"></i></a></span> </label> </br></br>
+             <input type="file" id="childJoiningFile" name="childJoiningFile" required oninput="this.className = ''"/></br> </br>        
+                   
+                  
+            </div>
+           
+        </div>
+        <p id="p"><span><i class="fa fa-info-circle" style="color:  #c8a695;"> </i></span> <span><a  href="final.html">  Click here </a></span> for important information about registering your child.</p>
+      </div>  <!-- end tab Child div  -->      
+                     
+      <div class="tab">   <!-- start tab Child div  -->
+        <div class="row">
+            <div class="col-25">
+
+           
+        <label for="fatherID"> Father ID: </label></br></br> 
+        <input type="text" name="fatherID" id="fatherID"  placeholder="Enter Your ID" required oninput="this.className = ''"/></br></br>  </br>   
+        <label for="fatherMiddleName"> Middle Name: </label> </br></br>
+        <input  type="text" name="fatherMiddleName"id="fatherMiddleName" placeholder="Enter Your  Middle Name"  required  oninput="this.className = ''"/></br> </br> </br>     </br>                                          
+        <label for="fatherLastName"> Last Name: </label> </br></br>                                      
+        <input type="text" name="fatherLastName" id="fatherLastName" placeholder="Enter Your Last Name" required  oninput="this.className = ''"/></br></br></br> 
+        <label for="fatherIdType" > ID Type: </label></br></br> 
+        <select name="fatherIdType" id="fatherIdType" required oninput="this.className = ''"><option value="ationalIdentity">National Identity</option><option value="Passport">Passport</option><option value="iqamma">Iqama</option></select></br></br> </br> 
+        <label for="qualifications" > Qualifications: </label></br></br> 
+        <select name="qualifications" id="qualifications"  required oninput="this.className = ''"><option value="doctorate">Doctorate</option><option value="master">Master</option><option value="bachelor's">Bachelor's</option><option value="Diploma">Diploma</option></select></br></br></br>     
+        <label for="motherNationality" > Mother Nationality:</label></br></br>
+        <select name="motherNationality" id="motherNationality" onchange="yesnoCheck(this);" required oninput="this.className = ''"><option value="mSaudi" >Saudi</option><option value="noneSaudi">None-Saudi</option></select></br></br>    </br>        
+        <div  id="ifYes"> 
+          <label for="motherIqamaPhoto" >Mother Iqama Photo: </label> </br></br>
+          <input type="file" id="motherIqamaPhoto" name="motherIqamaPhoto" oninput="this.className = ''"/>  </br>  </br>  </br></br>   
+        </div>
+        <label for="motherBusinessCard" > Mother Business Card:</label>  </br></br>
+        <input type="file" id="motherBusinessCard" name="motherBusinessCard"  required oninput="this.className = ''"/></br></br>
+        <label for="pledges" > Pledges: <a href="pledges.pdf" download="pledges"><i class="fa fa-download"></i></a></span></label>  </br></br></br>   
+        <input type="file" id="pledges" name="pledges"  required oninput="this.className = ''"/></br> 
+      </div>
+
+            <div class="firstInputGroup">
+              <label for="fatherFirstName"> First Name: </label></br></br>                                  
+              <input type="text" name="fatherFirstName" id="fatherFirstName" placeholder="Enter Your First Name"   required oninput="this.className = ''"/></br></br></br> 
+              <label for="gName"> Grandfather Name: </label></br></br>                                  
+              <input type="text" name="gName" id="gName" placeholder="Enter Your Grandfather Name"   required oninput="this.className = ''"/></br></br></br> </br> 
+              <label for="fatherNationality" > Nationality: </label></br></br> 
+              <select name="fatherNationality" id="fatherNationality"  required oninput="this.className = ''"><option value="saudi">Saudi</option><option value="none-Saudi">None-Saudi</option></select></br></br></br>        
+              <label for="fatherIdPlace" > ID Place: </label></br></br> 
+              <input type="text" name="idPlace" id="gName" placeholder="Enter Placr of your ID"   required oninput="this.className = ''"/></br></br></br> 
+              <label for="email">Enter your email:</label></br></br>
+              <input type="email" id="email" name="email" placeholder="example@gmail.com"> </br></br>  
+              <label for="mobileNumber"> Father Mobile Number: </label></br></br>                                  
+              <input type="tel" name="fMobileNumber" id="mobileNumber1"  placeholder="05xxxxxxxx" required oninput="this.className = ''"/></br> </br></br>   
+              <label for="fatherID"> Mother Mobile Number : </label></br></br>                                  
+              <input type="tel" name="MmobileNumber" id="mobileNumber3"  placeholder="05xxxxxxxx" required oninput="this.className = ''"/></br>  </br></br>
+              <label for="anotherMobileNumber"> Another Mobile Number : </label></br></br>                                  
+              <input type="tel" name="mobileNumber2" id="mobileNumber2"  placeholder="05xxxxxxxx" required oninput="this.className = ''"/></br> </br></br>
+              <label for="anotherMobileNumberRelative"> Relative Phone Number : </label></br></br>                                  
+              <input type="tel" name="anotherMobileNumberRelative" id="anotherMobileNumberRelative"  placeholder="Relative Phone Number" required oninput="this.className = ''"/></br> </br></br>
+            </div>
+           
+        </div>
+      </div>  <!-- end tab Child div  -->   
+      <div class="tab"><!-- start tab health state div  -->
+       
+        <div class="row questionDesign">
+          <div class="col-25" >
+
+            <label for="feeding">What Kind Of Feeding Does The Child Take ?</label> </br></br>
+            <label for="breastFeeding"> <input type="radio" id="breastFeeding" name="feeding" value="yes" onclick="text(0)"  required oninput="this.className = ''" />Breast Feeding</label></br>
+            <label for="bottleFeeding"></label><input type="radio" id="bottleFeeding" name="feeding" value="no" onclick="text(1)"  />Bottle Feeding</label> </br></br></br></br>
+            <div id="hideMethodOfBreastfeeding">
+              <label for="textareaBreastfeeding" required  oninput="this.className = ''"> What Is The Method Of Breastfeeding ?</label></br>
+              <textarea rows="5.5" cols="25" id="textareaBreastfeeding" name="textareaBreastfeeding" placeholder="Enter Text here..."></textarea></br></br>
+            </div>
+            <label for="allergicFood" required  oninput="this.className = ''"> Is The Child Allergic To Some Foods ? </label></br></br>
+            <label for="allergicYes"><input type="radio" id="allergicYes" name="allergicFood" value="allergicYes" onclick="choose(0)" required oninput="this.className = ''" />Yes</label></br>
+            <label for="allergicNo"><input type="radio" id="allergicNo" name="allergicFood" value="allergicNo" onclick="choose(1)"  /> No</label> </br></br>
+            <div id="hideFood">
+               <label for="allergicFoodText" required  oninput="this.className = ''">What Are The Foods ?</label></br><textarea rows="5.5" cols="25" id="allergicFoodText" name="allergicFoodText" placeholder="Enter Text here..."  required  oninput="this.className = ''"></textarea></br></br>
+              </div>
+              <label for="allergieOrRashes" >Does Your Child Suffer From Allergie Or Rashes Continuously ?</label></br></br></br>
+              <label><input type="radio" id="allergieOrRashesYes" name="allergieOrRashes" value="allergieOrRashesYes"  required oninput="this.className = ''" >Yes</label> </br><label for="allergieOrRashesNo"> <input type="radio" id="allergieOrRashesNo" name="allergieOrRashes" value="allergieOrRashesNo"  > No</label> </br></br></br>
+              <label for="creams" >Do You Have Certain Creams For The Child ?</label></br></br></br>
+              <label > <input type="radio" id="creamsYes" name="creams" value="creamsYes"  > Yes</label></br>
+              <label></label> <input type="radio" id="creamsNo" name="creams" value="creamsNo">No</label> </br></br>
+            <label for="healthStatus" > Health Status: <a href="الحالة الصحية للطفل pdf.pdf" download="healthStatus"><i class="fa fa-download"></i></a></span></label>  </br></br></br>
+            <input type="file" id="healthStatus" name="healthStatus"  required oninput="this.className = ''"/></br></br>
+              
+    </div>
+
+          <div class="firstInputGroup">
+            <label for="creams" >Do You Have Certain </br>Creams For The Child ?</label></br></br></br>
+            <label > <input type="radio" id="creamsYes" name="creams" value="creamsYes"  > Yes</label></br>
+            <label></label> <input type="radio" id="creamsNo" name="creams" value="creamsNo">No</label> </br></br>
+             <label for="problems">Does The Child Have </br>Any Problems ?</label></br></br></br>
+            <label for="problemsYes"><input type="radio" id="problemsYes" name="problems" value="problemsYes"  required oninput="this.className = ''">Yes</label></br>
+            <label for="problemsNo"><input type="radio" id="problemsNo" name="problems" value="problemsNo"> No</label> </br></br></br>
+         
+            <label for="medications">Are There Medications That</br> The Child Uses ? </label></br></br>
+            <label for="medicationsYes"><input type="radio" id="medicationsYes" name="medications" value="medicationsYes"  required oninput="this.className = ''">Yes</label></br>
+            <label for="medicationsNo"><input type="radio" id="medicationsNo" name="medications" value="medicationsNo">No</label> </br></br></br>
+         
+            <label for="surgery">Did The Child Have</br> Any Surgery ?</label></br></br>
+            <label for="surgeryYes"><input type="radio" id="surgeryYes" name="surgery" value="surgeryYes"  required oninput="this.className = ''">Yes</label></br>
+            <label for="surgeryNo"><input type="radio" id="surgeryNo" name="surgery" value="surgeryNo">No</label> </br></br></br>
+         
+            <label for="learningDifficulties">Does The Child Suffer From Any</br> Learning Difficulties ?</label></br></br>
+            <label for="learningDifficultiesYes"></label><input type="radio" id="learningDifficultiesYes" name="learningDifficulties" value="learningDifficultiesYes"  required oninput="this.className = ''"> Yes</label></br>
+            <label for="learningDifficultiesNo"></label> <input type="radio" id="learningDifficultiesNo" name="learningDifficulties" value="learningDifficultiesNo"> No</label> </br></br></br>
+          </div>
+         
+      </div>
+           
+        </div><!-- end tab health state div  --> 
+       
+        <div id="buttonContent">
+          <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+          <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+        </div>
+      
+         <!-- Circles which indicates the steps of the form: -->
+         <div style="text-align:center;margin-top:40px;">
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+    </div>
+    </form><!-- end form tag  --> 
+  </div><!-- end second div  -->
+ 
+</div><!-- end content div  -->
+
+
+<script>
+    var currentTab = 0; // Current tab is set to be the first tab (0)
+showTab(currentTab); // Display the current tab
+
+function showTab(n) {
+  // This function will display the specified tab of the form...
+  var x = document.getElementsByClassName("tab");
+  x[n].style.display = "block";
+  //... and fix the Previous/Next buttons:
+  if (n == 0) {
+    document.getElementById("prevBtn").style.display = "none";
+  } else {
+    document.getElementById("prevBtn").style.display = "inline";
+  }
+  if (n == (x.length - 1)) {
+    document.getElementById("nextBtn").innerHTML = "Submit";
+  } else {
+    document.getElementById("nextBtn").innerHTML = "Next";
+  }
+  //... and run a function that will display the correct step indicator:
+  fixStepIndicator(n)
+}
+
+function nextPrev(n) {
+  // This function will figure out which tab to display
+  var x = document.getElementsByClassName("tab");
+  // Exit the function if any field in the current tab is invalid:
+  if (n == 1 && !validateForm()) return false;
+  // Hide the current tab:
+  x[currentTab].style.display = "none";
+  // Increase or decrease the current tab by 1:
+  currentTab = currentTab + n;
+  // if you have reached the end of the form...
+  if (currentTab >= x.length) {
+    // ... the form gets submitted:
+    document.getElementById("regForm").submit();
+    return false;
+  }
+  // Otherwise, display the correct tab:
+  showTab(currentTab);
+}
+
+function validateForm() {
+  // This function deals with validation of the form fields
+  var x, y, i, valid = true;
+  x = document.getElementsByClassName("tab");
+  y = x[currentTab].getElementsByTagName("input");
+  // A loop that checks every input field in the current tab:
+  for (i = 0; i < y.length; i++) {
+    if (!y[i].required  ) {
+          continue;
+        }
+    if (y[i].value == "") {
+      // add an "invalid" class to the field:
+      y[i].className += " invalid";
+      // and set the current valid status to false
+      valid = false;
+    }
+  }
+  // If the valid status is true, mark the step as finished and valid:
+  if (valid) {
+    document.getElementsByClassName("step")[currentTab].className += " finish";
+  }
+  return valid; // return the valid status
+}
+
+function fixStepIndicator(n) {
+  // This function removes the "active" class of all steps...
+  var i, x = document.getElementsByClassName("step");
+  for (i = 0; i < x.length; i++) {
+    x[i].className = x[i].className.replace(" active", "");
+  }
+  //... and adds the "active" class on the current step:
+  x[n].className += " active";
+}
+
+    function text(x) {
+      if (x==0)document.getElementById("hideMethodOfBreastfeeding").style.display="block";
+  
+      
+
+      else document.getElementById("hideMethodOfBreastfeeding").style.display="none";
+    }
+    function choose(y) {
+      if (y==0)document.getElementById("hideFood").style.display="block";
+      else document.getElementById("hideFood").style.display="none";
+    }
+    function yesnoCheck(that) {
+    if (that.value == "noneSaudi") {
+
+        document.getElementById("ifYes").style.display = "block";
+    } else {
+        document.getElementById("ifYes").style.display = "none";
+    }
+}
+   
+    </script>
+
+    </body>
+</html>
